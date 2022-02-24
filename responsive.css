@@ -1,0 +1,35 @@
+@media only screen and (max-width:1000px){
+    .mobile{
+        display: block;
+    }
+    .navigation .nav{
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 200px;
+        height: 100vh;
+        border-left: 2px solid rgba(0, 0, 0, .07);
+        background-color: #fff;
+        margin-top: 80px;
+        transition: .3s ease-in;
+    }
+    .navigation .nav ul li{
+        display: block;
+        padding: 20px;
+        border-bottom: 1px solid rgba(0, 0, 0, .07);
+    }
+    .navigation .nav ul li:first-child{
+        border-top: 1px solid rgba(0, 0, 0, .07);
+    }
+    .navigation .nav ul li a{
+        margin-left: 30px;
+
+    }
+
+
+    /*--------- this code for mobil mneu ------*/
+    .navigation .nav.toggle{
+        right:-200px;
+    }
+
+}
